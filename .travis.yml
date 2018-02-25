@@ -1,0 +1,4 @@
+language: swift
+xcode_project: ios/People/People.xcodeproj
+xcode_scheme: PeopleTests
+osx_image: xcode9.2
