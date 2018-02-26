@@ -1,5 +1,5 @@
 language: swift
-xcode_project: ios/People/People-iOS.xcodeproj
+xcode_project: ios/People-iOS/People-iOS.xcodeproj
 xcode_scheme:
     - People-iOSTests
     - People-iOSUITests
