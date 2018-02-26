@@ -2,5 +2,3 @@ language: swift
 osx_image: xcode9.2
 script: xcodebuild -project ./ios/People/People-iOS.xcodeproj -scheme People-iOS -sdk iphonesimulator build
 script: xcodebuild -project ./ios/People/People-iOS.xcodeproj -scheme People-iOS-Test -sdk iphonesimulator test
-script: xcodebuild -project ./ios/People/People-iOS.xcodeproj -scheme People-iOS-UITest -sdk iphonesimulator test
-
