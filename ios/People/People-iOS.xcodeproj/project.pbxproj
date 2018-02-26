@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF4F12B92043461B00C0E084 /* People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = People.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4F12B92043461B00C0E084 /* People-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4F12BC2043461B00C0E084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF4F12BF2043461B00C0E084 /* People.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = People.xcdatamodel; sourceTree = "<group>"; };
 		BF4F12C12043461B00C0E084 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		BF4F12C82043461C00C0E084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4F12CB2043461C00C0E084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4F12CD2043461C00C0E084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF4F12D22043461C00C0E084 /* PeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4F12D22043461C00C0E084 /* People-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4F12D62043461C00C0E084 /* PeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTests.swift; sourceTree = "<group>"; };
 		BF4F12D82043461C00C0E084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF4F12DD2043461C00C0E084 /* PeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4F12DD2043461C00C0E084 /* People-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4F12E12043461C00C0E084 /* PeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUITests.swift; sourceTree = "<group>"; };
 		BF4F12E32043461C00C0E084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		BF4F12B02043461B00C0E084 = {
 			isa = PBXGroup;
 			children = (
-				BF4F12BB2043461B00C0E084 /* People */,
-				BF4F12D52043461C00C0E084 /* PeopleTests */,
-				BF4F12E02043461C00C0E084 /* PeopleUITests */,
+				BF4F12BB2043461B00C0E084 /* People-iOS */,
+				BF4F12D52043461C00C0E084 /* People-iOSTests */,
+				BF4F12E02043461C00C0E084 /* People-iOSUITests */,
 				BF4F12BA2043461B00C0E084 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		BF4F12BA2043461B00C0E084 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF4F12B92043461B00C0E084 /* People.app */,
-				BF4F12D22043461C00C0E084 /* PeopleTests.xctest */,
-				BF4F12DD2043461C00C0E084 /* PeopleUITests.xctest */,
+				BF4F12B92043461B00C0E084 /* People-iOS.app */,
+				BF4F12D22043461C00C0E084 /* People-iOSTests.xctest */,
+				BF4F12DD2043461C00C0E084 /* People-iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF4F12BB2043461B00C0E084 /* People */ = {
+		BF4F12BB2043461B00C0E084 /* People-iOS */ = {
 			isa = PBXGroup;
 			children = (
 				BF4F12BC2043461B00C0E084 /* AppDelegate.swift */,
@@ -110,33 +110,33 @@
 				BF4F12CD2043461C00C0E084 /* Info.plist */,
 				BF4F12BE2043461B00C0E084 /* People.xcdatamodeld */,
 			);
-			path = People;
+			path = "People-iOS";
 			sourceTree = "<group>";
 		};
-		BF4F12D52043461C00C0E084 /* PeopleTests */ = {
+		BF4F12D52043461C00C0E084 /* People-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
 				BF4F12D62043461C00C0E084 /* PeopleTests.swift */,
 				BF4F12D82043461C00C0E084 /* Info.plist */,
 			);
-			path = PeopleTests;
+			path = "People-iOSTests";
 			sourceTree = "<group>";
 		};
-		BF4F12E02043461C00C0E084 /* PeopleUITests */ = {
+		BF4F12E02043461C00C0E084 /* People-iOSUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BF4F12E12043461C00C0E084 /* PeopleUITests.swift */,
 				BF4F12E32043461C00C0E084 /* Info.plist */,
 			);
-			path = PeopleUITests;
+			path = "People-iOSUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF4F12B82043461B00C0E084 /* People */ = {
+		BF4F12B82043461B00C0E084 /* People-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF4F12E62043461C00C0E084 /* Build configuration list for PBXNativeTarget "People" */;
+			buildConfigurationList = BF4F12E62043461C00C0E084 /* Build configuration list for PBXNativeTarget "People-iOS" */;
 			buildPhases = (
 				BF4F12B52043461B00C0E084 /* Sources */,
 				BF4F12B62043461B00C0E084 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = People;
+			name = "People-iOS";
 			productName = People;
-			productReference = BF4F12B92043461B00C0E084 /* People.app */;
+			productReference = BF4F12B92043461B00C0E084 /* People-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF4F12D12043461C00C0E084 /* PeopleTests */ = {
+		BF4F12D12043461C00C0E084 /* People-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF4F12E92043461C00C0E084 /* Build configuration list for PBXNativeTarget "PeopleTests" */;
+			buildConfigurationList = BF4F12E92043461C00C0E084 /* Build configuration list for PBXNativeTarget "People-iOSTests" */;
 			buildPhases = (
 				BF4F12CE2043461C00C0E084 /* Sources */,
 				BF4F12CF2043461C00C0E084 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				BF4F12D42043461C00C0E084 /* PBXTargetDependency */,
 			);
-			name = PeopleTests;
+			name = "People-iOSTests";
 			productName = PeopleTests;
-			productReference = BF4F12D22043461C00C0E084 /* PeopleTests.xctest */;
+			productReference = BF4F12D22043461C00C0E084 /* People-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BF4F12DC2043461C00C0E084 /* PeopleUITests */ = {
+		BF4F12DC2043461C00C0E084 /* People-iOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF4F12EC2043461C00C0E084 /* Build configuration list for PBXNativeTarget "PeopleUITests" */;
+			buildConfigurationList = BF4F12EC2043461C00C0E084 /* Build configuration list for PBXNativeTarget "People-iOSUITests" */;
 			buildPhases = (
 				BF4F12D92043461C00C0E084 /* Sources */,
 				BF4F12DA2043461C00C0E084 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				BF4F12DF2043461C00C0E084 /* PBXTargetDependency */,
 			);
-			name = PeopleUITests;
+			name = "People-iOSUITests";
 			productName = PeopleUITests;
-			productReference = BF4F12DD2043461C00C0E084 /* PeopleUITests.xctest */;
+			productReference = BF4F12DD2043461C00C0E084 /* People-iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF4F12B42043461B00C0E084 /* Build configuration list for PBXProject "People" */;
+			buildConfigurationList = BF4F12B42043461B00C0E084 /* Build configuration list for PBXProject "People-iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF4F12B82043461B00C0E084 /* People */,
-				BF4F12D12043461C00C0E084 /* PeopleTests */,
-				BF4F12DC2043461C00C0E084 /* PeopleUITests */,
+				BF4F12B82043461B00C0E084 /* People-iOS */,
+				BF4F12D12043461C00C0E084 /* People-iOSTests */,
+				BF4F12DC2043461C00C0E084 /* People-iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		BF4F12D42043461C00C0E084 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF4F12B82043461B00C0E084 /* People */;
+			target = BF4F12B82043461B00C0E084 /* People-iOS */;
 			targetProxy = BF4F12D32043461C00C0E084 /* PBXContainerItemProxy */;
 		};
 		BF4F12DF2043461C00C0E084 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF4F12B82043461B00C0E084 /* People */;
+			target = BF4F12B82043461B00C0E084 /* People-iOS */;
 			targetProxy = BF4F12DE2043461C00C0E084 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -487,7 +487,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People.app/People";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People-iOS.app/People-iOS";
 			};
 			name = Debug;
 		};
@@ -508,7 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People.app/People";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People-iOS.app/People-iOS";
 			};
 			name = Release;
 		};
@@ -555,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF4F12B42043461B00C0E084 /* Build configuration list for PBXProject "People" */ = {
+		BF4F12B42043461B00C0E084 /* Build configuration list for PBXProject "People-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF4F12E42043461C00C0E084 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF4F12E62043461C00C0E084 /* Build configuration list for PBXNativeTarget "People" */ = {
+		BF4F12E62043461C00C0E084 /* Build configuration list for PBXNativeTarget "People-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF4F12E72043461C00C0E084 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF4F12E92043461C00C0E084 /* Build configuration list for PBXNativeTarget "PeopleTests" */ = {
+		BF4F12E92043461C00C0E084 /* Build configuration list for PBXNativeTarget "People-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF4F12EA2043461C00C0E084 /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF4F12EC2043461C00C0E084 /* Build configuration list for PBXNativeTarget "PeopleUITests" */ = {
+		BF4F12EC2043461C00C0E084 /* Build configuration list for PBXNativeTarget "People-iOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF4F12ED2043461C00C0E084 /* Debug */,
