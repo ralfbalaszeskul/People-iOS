@@ -1,4 +1,4 @@
 language: swift
 osx_image: xcode9.2
 script: xcodebuild -project ./ios/People/People-iOS.xcodeproj -scheme People-iOS -sdk iphonesimulator build
-script: xcodebuild -project ./ios/People/People-iOS.xcodeproj -scheme People-iOS-Tests -sdk iphonesimulator build test
+script: xcodebuild -project ./ios/People/People-iOS.xcodeproj -scheme People-iOS-Tests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.3' build test
