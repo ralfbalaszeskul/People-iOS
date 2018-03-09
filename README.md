@@ -26,4 +26,6 @@ The idea is to create an app for iPhone, iPad and Mac with offline data storage 
 - Continuous paid provision through app stores
 
 ## Several
-[![Build Status](https://travis-ci.org/ralfbalaszeskul/People.svg?branch=develop)](https://travis-ci.org/ralfbalaszeskul/People)
+[![Build Status master](https://travis-ci.org/ralfbalaszeskul/People-iOS.svg?branch=master)](https://travis-ci.org/ralfbalaszeskul/People-iOS)
+[![Build Status develop](https://travis-ci.org/ralfbalaszeskul/People-iOS.svg?branch=develop)](https://travis-ci.org/ralfbalaszeskul/People-iOS)
+
